@@ -32,3 +32,4 @@ def test_divide():
 
 def test_modulo():
     assert Calculator.modulo(5, 2) == 1
+    assert Calculator.modulo(6, 2) == 0
