@@ -16,3 +16,8 @@ class Calculator:
 
     def modulo(x, y):
         return x % y
+
+    def trippy(x, y):
+        x += 1
+        y -= 1
+        return x * y
