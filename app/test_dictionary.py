@@ -2,4 +2,8 @@ from .dictionary import Dictionary
 
 
 def test_dog():
-    assert Calculator.dog() == "A pet animal"
+    assert Dictionary.dog() == "A pet animal"
+
+
+def test_car():
+    assert Dictionary.car() == "Something that you drive"
