@@ -7,3 +7,6 @@ def test_dog():
 
 def test_car():
     assert Dictionary.car() == "Something that you drive"
+
+def test_food():
+    assert Dictionary.food() == "Eat this"
