@@ -8,3 +8,6 @@ class Dictionary:
     
     def food():
         return "Eat this"
+
+    def joint():
+        return "Yeh"
