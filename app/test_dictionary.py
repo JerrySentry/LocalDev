@@ -10,3 +10,6 @@ def test_car():
 
 def test_food():
     assert Dictionary.food() == "Eat this"
+
+def test_ops():
+    assert Dictionary.ops() == "Opposites or rivals from another gang or opposing group"

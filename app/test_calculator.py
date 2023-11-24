@@ -33,3 +33,6 @@ def test_divide():
 def test_modulo():
     assert Calculator.modulo(5, 2) == 1
     assert Calculator.modulo(6, 2) == 0
+
+def test_minus_one():
+    assert Calculator.minus_one(5) == 4

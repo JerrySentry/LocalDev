@@ -11,3 +11,6 @@ class Dictionary:
 
     def joint():
         return "Yeh"
+
+    def ops():
+        return "Opposites or rivals from another gang or opposing group"

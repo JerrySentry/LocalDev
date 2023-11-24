@@ -14,3 +14,21 @@ flag_management:
         threshold: 1%
       - type: patch
         target: 1%
+
+component_management:
+  default_rules:
+    statuses:
+      - type: project
+        target: auto
+        threshold: 1%
+      - type: patch
+        target: 1%
+  individual_components:
+    - component_id: dictionary
+      name: DictionaryApp
+      paths:
+        - "**/dictionary.py"
+    - component_id: calculator
+      name: CalculatorApp
+      paths:
+        - "**/calculator.py"

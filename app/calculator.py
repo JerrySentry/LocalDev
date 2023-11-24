@@ -21,3 +21,6 @@ class Calculator:
         x += 1
         y -= 1
         return x * y
+
+    def minus_one(x):
+        return x-1
