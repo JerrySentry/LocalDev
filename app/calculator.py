@@ -24,3 +24,6 @@ class Calculator:
 
     def minus_one(x):
         return x-1
+
+    def plus_one(x):
+        return x+1
