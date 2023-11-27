@@ -27,3 +27,6 @@ class Calculator:
 
     def plus_one(x):
         return x+1
+
+    def double_it(x):
+        return x*2

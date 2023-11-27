@@ -14,3 +14,6 @@ class Dictionary:
 
     def ops():
         return "Opposites or rivals from another gang or opposing group"
+    
+    def computer():
+        return "Smart machine"
