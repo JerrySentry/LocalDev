@@ -32,4 +32,4 @@ class Calculator:
         return x*2
     
     def wacko(x):
-        return x+x+x
+        return x+x+x+x
