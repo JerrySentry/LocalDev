@@ -36,3 +36,6 @@ def test_modulo():
 
 def test_minus_one():
     assert Calculator.minus_one(5) == 4
+
+def test_double_it():
+    assert Calculator.double_it(4) == 8
