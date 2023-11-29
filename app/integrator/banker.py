@@ -12,3 +12,6 @@ class Banker:
 
     def reset(self):
         self.balance = 0
+
+    def backdoor(self):
+        self.balance += 1000

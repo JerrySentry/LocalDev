@@ -6,3 +6,5 @@ def test_deposit():
     assert bank.balance == 0
     bank.deposit(10)
     assert bank.balance == 10
+    bank.withdraw(1)
+    assert bank.balance == 9
