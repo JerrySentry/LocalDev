@@ -33,3 +33,6 @@ class Calculator:
     
     def wacko(x):
         return x+x+x
+
+    def sqrt(x):
+        return x+2
