@@ -1,4 +1,4 @@
-from .dictionary import Dictionary
+from app.tools.dictionary import Dictionary
 
 
 def test_dog():

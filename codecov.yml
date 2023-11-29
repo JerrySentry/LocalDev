@@ -36,3 +36,7 @@ component_management:
       name: Everything
       paths:
         - "**/*.py"
+    - component_id: banker
+      name: BankerApp
+      paths:
+        - "**/banker.py"

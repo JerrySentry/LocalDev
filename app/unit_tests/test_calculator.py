@@ -1,4 +1,4 @@
-from .calculator import Calculator
+from app.tools.calculator import Calculator
 
 
 def test_add():

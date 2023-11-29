@@ -1,4 +1,4 @@
-from .banker import Banker
+from app.integrator.banker import Banker
 
 
 def test_deposit():
