@@ -9,3 +9,6 @@ class Banker:
 
     def withdraw(self, val):
         self.balance -= val
+
+    def reset(self):
+        self.balance = 0
