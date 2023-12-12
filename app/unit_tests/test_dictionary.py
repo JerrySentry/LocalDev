@@ -15,4 +15,4 @@ def test_ops():
     assert Dictionary.ops() == "Opposites or rivals from another gang or opposing group"
 
 def test_computer():
-    assert Dictionary.computer() == "Da smart machines of the future"
+    assert Dictionary.computer() == "Da smart machines of the future."
