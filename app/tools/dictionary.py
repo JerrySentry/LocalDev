@@ -16,4 +16,4 @@ class Dictionary:
         return "Opposites or rivals from another gang or opposing group"
     
     def computer():
-        return "Da smart machines of the future."
+        return "Da smart machines of the future.."
