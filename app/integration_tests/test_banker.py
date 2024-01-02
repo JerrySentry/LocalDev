@@ -13,4 +13,4 @@ def test_backdoor():
     bank = Banker()
     assert bank.balance == 0
     bank.backdoor()
-    assert bank.balance == 2000
+    assert bank.balance == 3000
