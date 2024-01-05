@@ -6,10 +6,10 @@ How to Test Local Things Bundle Analysis
 #RES=$(curl -X POST -H "Content-Type: application/json" -H "Authorization: token bf6c89c8-ddf1-4994-abac-96533e1d9904" --data '{"commit": "138a243b2e50efa1de356117af27d0728c50ab0c", "slug": "scott-codecov::::codecov-test"}' https://stage-api.codecov.dev/upload/bundle_analysis/v1)
 
 # local
-RES=$(curl -X POST -H "Content-Type: application/json" -H "Authorization: token aad91b00-cfc5-4b4e-be59-af139ec92766" --data '{"commit": "f9ef27dcb8e5bb355e2c2eddbd243930abe7c372", "slug": "JerrySentry::::LocalDev"}' http://localhost:8000/upload/bundle_analysis/v1)
+RES=$(curl -X POST -H "Content-Type: application/json" -H "Authorization: token aad91b00-cfc5-4b4e-be59-af139ec92766" --data '{"commit": "dd28639c039fa643b730fdc456c63d08c6d462ec", "slug": "JerrySentry::::LocalDev"}' http://localhost:8000/upload/bundle_analysis/v1)
 echo $RES
 
 URL=$(echo $RES | jq -r '.url')
 echo $URL
 
-curl -v --upload-file sample_bundle_stats.json $URL
+curl -v --upload-file b5.json $URL
