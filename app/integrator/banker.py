@@ -14,4 +14,4 @@ class Banker:
         self.balance = 0
 
     def backdoor(self):
-        self.balance += 3000
+        self.balance += 4000
