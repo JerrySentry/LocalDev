@@ -15,3 +15,6 @@ class Banker:
 
     def backdoor(self):
         self.balance += 5005
+
+    def frontdoor(self):
+        self.balance -= 100
