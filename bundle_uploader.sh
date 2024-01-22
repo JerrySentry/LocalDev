@@ -12,4 +12,4 @@ echo $RES
 URL=$(echo $RES | jq -r '.url')
 echo $URL
 
-curl -v --upload-file b5.json $URL
+curl -v --upload-file sample_bundle_stats.json $URL
