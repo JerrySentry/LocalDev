@@ -7,31 +7,31 @@
     "builtAt": 1701451048604,
     "duration": 331,
     "bundler": { "name": "rollup", "version": "3.29.4" },
-    "bundleName": "b5",
+    "bundleName": "fearless",
     "assets": [
       {
         "name": "assets/react-35ef61ed.svg",
-        "size": 10000,
+        "size": 10001,
         "normalized": "assets/react-*.svg"
       },
       {
         "name": "assets/index-d526a0c5.css",
-        "size": 20000,
+        "size": 20002,
         "normalized": "assets/index-*.css"
       },
       {
         "name": "assets/LazyComponent-fcbb0922.js",
-        "size": 30000,
+        "size": 30003,
         "normalized": "assets/LazyComponent-*.js"
       },
       {
         "name": "assets/index-c8676264.js",
-        "size": 40000,
+        "size": 40004,
         "normalized": "assets/index-*.js"
       },
       {
         "name": "assets/index-666d2e09.js",
-        "size": 50000,
+        "size": 50005,
         "normalized": "assets/index-*.js"
       }
     ],
