@@ -7,31 +7,31 @@
     "builtAt": 1701451048604,
     "duration": 331,
     "bundler": { "name": "rollup", "version": "3.29.4" },
-    "bundleName": "b5",
+    "bundleName": "gunk",
     "assets": [
       {
         "name": "assets/react-35ef61ed.svg",
-        "size": 10000,
+        "size": 123,
         "normalized": "assets/react-*.svg"
       },
       {
         "name": "assets/index-d526a0c5.css",
-        "size": 20000,
+        "size": 234,
         "normalized": "assets/index-*.css"
       },
       {
         "name": "assets/LazyComponent-fcbb0922.js",
-        "size": 30000,
+        "size": 345,
         "normalized": "assets/LazyComponent-*.js"
       },
       {
         "name": "assets/index-c8676264.js",
-        "size": 40000,
+        "size": 456,
         "normalized": "assets/index-*.js"
       },
       {
         "name": "assets/index-666d2e09.js",
-        "size": 50000,
+        "size": 567,
         "normalized": "assets/index-*.js"
       }
     ],
