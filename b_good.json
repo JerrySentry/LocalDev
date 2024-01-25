@@ -1,0 +1,53 @@
+{
+    "version": "1",
+    "plugin": {
+      "name": "codecov-vite-bundle-analysis-plugin",
+      "version": "1.0.0"
+    },
+    "builtAt": 1701451048604,
+    "duration": 331,
+    "bundler": { "name": "rollup", "version": "3.29.4" },
+    "bundleName": "goodbundle",
+    "assets": [
+      {
+        "name": "assets/LazyComponent-fcbb0922.js",
+        "size": 3,
+        "normalized": "assets/LazyComponent-*.js"
+      },
+      {
+        "name": "assets/index-c8676264.js",
+        "size": 4,
+        "normalized": "assets/index-*.js"
+      }
+    ],
+    "chunks": [
+      {
+        "id": "LazyComponent",
+        "uniqueId": "b1-0-LazyComponent",
+        "entry": false,
+        "initial": true,
+        "files": ["assets/index-c8676264.js", "assets/LazyComponent-fcbb0922.js"],
+        "names": ["LazyComponent"]
+      },
+      {
+        "id": "index",
+        "uniqueId": "b1-1-index",
+        "entry": false,
+        "initial": true,
+        "files": ["assets/index-c8676264.js", "assets/LazyComponent-fcbb0922.js"],
+        "names": ["index"]
+      }
+    ],
+    "modules": [
+      {
+        "name": "./src/LazyComponent/LazyComponent.tsx",
+        "size": 4970,
+        "chunkUniqueIds": ["b1-1-index", "b1-0-LazyComponent"]
+      },
+      {
+        "name": "./src/IndexedLazyComponent/IndexedLazyComponent.tsx",
+        "size": 1890,
+        "chunkUniqueIds": ["b1-1-index", "b1-0-LazyComponent"]
+      }
+    ]
+  }
