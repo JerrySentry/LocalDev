@@ -20,7 +20,7 @@
 
 
 # LocalDev
-RES=$(curl --location --request POST 'http://localhost:8000/upload/v4?branch=main&commit=6b2704eccb07f9bc91a2187c9cd2a018a538de30&token=aad91b00-cfc5-4b4e-be59-af139ec92766&slug=codecov%2FLocalDev')
+RES=$(curl --location --request POST 'http://localhost:8000/upload/v4?branch=main&commit=c8b8334cbf3837dcde17dbfca9145171a68a3a7b&token=aad91b00-cfc5-4b4e-be59-af139ec92766&slug=codecov%2FLocalDev')
 
 
 # python-testing
