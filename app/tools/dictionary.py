@@ -17,3 +17,6 @@ class Dictionary:
     
     def computer():
         return "Da smart machines of the future.."
+
+    def yo():
+        return "ye"
