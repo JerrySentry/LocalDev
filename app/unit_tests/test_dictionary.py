@@ -16,3 +16,7 @@ def test_ops():
 
 def test_computer():
     assert Dictionary.computer() == "Da smart machines of the future.."
+
+def test_yo():
+    assert Dictionary.yo() == "ye"
+
