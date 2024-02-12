@@ -1,5 +1,5 @@
 from app.tools.calculator import Calculator
-
+# hi
 
 def test_add():
     assert Calculator.add(1, 2) == 3.0
