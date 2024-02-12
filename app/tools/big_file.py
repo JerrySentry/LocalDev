@@ -67408,3 +67408,7 @@ class BigClass:
 class BigClass:
     def __init__(self):
         print("constructor")
+
+class BigClassTwo:
+    def __init__(self):
+        print("constructor 2")
