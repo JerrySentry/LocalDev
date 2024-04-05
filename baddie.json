@@ -1,0 +1,64 @@
+{
+    "version": "1",
+    "plugin": {
+      "name": "codecov-wako-bundle-analysis-plugin",
+      "version": "1.0.0"
+    },
+    "builtAt": 1701451048604,
+    "duration": 331,
+    "bundler": { "name": "rollup", "version": "3.29.4" },
+    "bundleName": "baddie",
+    "assets": [
+      {
+        "name": "assets/react-35ef61ed.svg",
+        "size": "bloo",
+        "normalized": "assets/react-*.svg"
+      },
+      {
+        "name": "assets/index-d526a0c5.css",
+        "size": 20000,
+        "normalized": "assets/index-*.css"
+      },
+      {
+        "name": "assets/LazyComponent-fcbb0922.js",
+        "size": 30000,
+        "normalized": "assets/LazyComponent-*.js"
+      },
+      {
+        "name": "assets/index-c8676264.js",
+        "size": 40000,
+        "normalized": "assets/index-*.js"
+      },
+      {
+        "name": "assets/index-666d2e09.js",
+        "size": 50000,
+        "normalized": "assets/index-*.js"
+      }
+    ],
+    "chunks": [
+      {
+        "id": "LazyComponent",
+        "uniqueId": "b5-0-LazyComponent",
+        "entry": false,
+        "initial": true,
+        "files": ["assets/LazyComponent-fcbb0922.js"],
+        "names": ["LazyComponent"]
+      },
+      {
+        "id": "index",
+        "uniqueId": "b5-1-index",
+        "entry": false,
+        "initial": true,
+        "files": ["assets/index-c8676264.js"],
+        "names": ["index"]
+      },
+      {
+        "id": "index",
+        "uniqueId": "b5-2-index",
+        "entry": true,
+        "initial": false,
+        "files": ["assets/index-666d2e09.js"],
+        "names": ["index"]
+      }
+    ]
+  }
