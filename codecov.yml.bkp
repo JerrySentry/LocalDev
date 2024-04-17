@@ -1,0 +1,42 @@
+profiling:
+  critical_files_paths:
+    - app/calculator.py
+
+comment:
+  show_critical_paths: true
+
+flag_management:
+  default_rules: # the rules that will be followed for any flag added, generally
+    carryforward: true
+    statuses:
+      - type: project
+        target: auto
+        threshold: 1%
+      - type: patch
+        target: 1%
+
+component_management:
+  default_rules:
+    statuses:
+      - type: project
+        target: auto
+        threshold: 1%
+      - type: patch
+        target: 1%
+  individual_components:
+    - component_id: dictionary
+      name: DictionaryApp
+      paths:
+        - "**/dictionary.py"
+    - component_id: calculator
+      name: CalculatorApp
+      paths:
+        - "**/calculator.py"
+      flag_regexes:
+        - "unit"
+    - component_id: banker
+      name: BankerApp
+      paths:
+        - "**/banker.py"
+      flag_regexes:
+        - "integration"
