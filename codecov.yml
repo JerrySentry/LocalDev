@@ -34,13 +34,6 @@ component_management:
         - "**/calculator.py"
       flag_regexes:
         - "unit"
-    - component_id: all
-      name: Everything
-      paths:
-        - "**/*.py"
-      flag_regexes:
-        - "unit"
-        - "integration"
     - component_id: banker
       name: BankerApp
       paths:
