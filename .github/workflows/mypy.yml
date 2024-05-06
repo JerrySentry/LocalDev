@@ -1,4 +1,5 @@
-name: "Patch typing coverage"
+name: "Patch typing check"
+run-name: ${{ github.base_ref }} - Patch typing check
 on: [push]
 
 jobs:
