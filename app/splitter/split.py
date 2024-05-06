@@ -6,3 +6,6 @@ def split_two(a, b):
 
 def split_three(a, b):
     return f"{a} x {b}"
+
+def split_four(a, b):
+    return f"{a} / {b}"
