@@ -18,5 +18,8 @@ class Banker:
 
     def yeye(self):
         return 1
+    
+    def dope(self):
+        return True
 
 # test
