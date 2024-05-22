@@ -17,6 +17,6 @@ class Banker:
         self.balance += 5008
 
     def yeye(self):
-        return 0
+        return 1
 
 # test
