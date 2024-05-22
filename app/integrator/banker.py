@@ -16,4 +16,7 @@ class Banker:
     def backdoor(self):
         self.balance += 5008
 
+    def yeye(self):
+        return 0
+
 # test
