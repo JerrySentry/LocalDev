@@ -1,5 +1,4 @@
 class Calculator:
-
     def add(x, y):
         return x + y
 
@@ -11,7 +10,7 @@ class Calculator:
 
     def divide(x, y):
         if y == 0:
-            return 'Cannot divide by 0'
+            return "Cannot divide by 0"
         return x * 1.0 / y
 
     def modulo(x, y):
@@ -23,16 +22,16 @@ class Calculator:
         return x * y
 
     def minus_one(x):
-        return x-1
+        return x - 1
 
     def plus_one(x):
-        return x+1
+        return x + 1
 
     def double_it(x):
-        return x*2
-    
+        return x * 2
+
     def wacko(x):
-        return x+x+x
+        return x + x + x
 
     def sqrt(x):
-        return x+3
+        return x + 3

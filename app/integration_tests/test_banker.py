@@ -1,5 +1,6 @@
 from app.integrator.banker import Banker
-#hisdfsdfsd
+# hisdfsdfsd
+
 
 def test_deposit():
     bank = Banker()
@@ -8,6 +9,7 @@ def test_deposit():
     assert bank.balance == 10
     bank.withdraw(1)
     assert bank.balance == 9
+
 
 def test_backdoor():
     bank = Banker()
