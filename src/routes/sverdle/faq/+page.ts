@@ -1,0 +1,1 @@
+// faq/+page.ts 1
